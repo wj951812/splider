@@ -1,0 +1,935 @@
+{
+  "generatedAt": "2026-11-19T00:09:26.330Z",
+  "source": "https://jikefuye.cn/tvbox.json",
+  "count": 98,
+  "sites": [
+    {
+      "index": 1,
+      "key": "Douban",
+      "name": "豆瓣片单 |【公众号：极客豹】",
+      "api": "csp_NewDouBanGuard",
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
+      "file": "sources/01-豆瓣片单.js",
+      "implementation": "导航/豆瓣推荐.js"
+    },
+    {
+      "index": 2,
+      "key": "Wexconfig",
+      "name": "🐮配置┃中心🐮",
+      "api": "csp_PanConfigGuard",
+      "ext": null,
+      "file": "sources/02-配置-中心.js",
+      "implementation": "OmniBox 配置中心"
+    },
+    {
+      "index": 3,
+      "key": "MyPan",
+      "name": "🐮我的┃网盘🐮",
+      "api": "csp_MyPanGuard",
+      "ext": null,
+      "file": "sources/03-我的-网盘.js",
+      "implementation": "OmniBox SDK 网盘授权"
+    },
+    {
+      "index": 4,
+      "key": "花卷",
+      "name": "💓花卷┃4K💓‍",
+      "api": "csp_AiNewHuaJuanGuard",
+      "ext": null,
+      "file": "sources/04-花卷-4K.js",
+      "implementation": "影视/网盘/光鸭·臻影社.js"
+    },
+    {
+      "index": 5,
+      "key": "玩偶",
+      "name": "💓‍玩偶┃4K💓‍",
+      "api": "csp_AiNewWoggGuard",
+      "ext": null,
+      "file": "sources/05-玩偶-4K.js",
+      "implementation": "影视/网盘/玩偶.js"
+    },
+    {
+      "index": 6,
+      "key": "AiNewGuanYing",
+      "name": "💓‍观影┃4K💓‍",
+      "api": "csp_AiNewGuanYingGuard",
+      "ext": null,
+      "file": "sources/06-观影-4K.js",
+      "implementation": "影视/网盘/影巢.js"
+    },
+    {
+      "index": 7,
+      "key": "AiQwMkv",
+      "name": "💓‍七味┃4K💓‍",
+      "api": "csp_AiQwMkvGuard",
+      "ext": null,
+      "file": "sources/07-七味-4K.js",
+      "implementation": "影视/网盘/七味分组.js"
+    },
+    {
+      "index": 8,
+      "key": "AiNewPianKu",
+      "name": "💓盘库┃4K💓",
+      "api": "csp_AiNewPianKuGuard",
+      "ext": null,
+      "file": "sources/08-盘库-4K.js",
+      "implementation": "影视/采集/片库.js"
+    },
+    {
+      "index": 9,
+      "key": "AiNewHuBan",
+      "name": "💓虎斑┃4K💓",
+      "api": "csp_AiNewHuBanGuard",
+      "ext": null,
+      "file": "sources/09-虎斑-4K.js",
+      "implementation": "影视/网盘/虎斑.js"
+    },
+    {
+      "index": 10,
+      "key": "AiNewMuOu",
+      "name": "💓木偶┃4K💓",
+      "api": "csp_AiNewMuOuGuard",
+      "ext": null,
+      "file": "sources/10-木偶-4K.js",
+      "implementation": "影视/网盘/木偶.js"
+    },
+    {
+      "index": 11,
+      "key": "AiNewDuoDuo",
+      "name": "💓多多┃4K💓",
+      "api": "csp_AiNewDuoDuoGuard",
+      "ext": null,
+      "file": "sources/11-多多-4K.js",
+      "implementation": "影视/网盘/多多.js"
+    },
+    {
+      "index": 12,
+      "key": "AiNewKuaiYing",
+      "name": "💓快影┃4K💓",
+      "api": "csp_AiNewKuaiYingGuard",
+      "ext": null,
+      "file": "sources/12-快影-4K.js",
+      "implementation": "影视/网盘/快映.js"
+    },
+    {
+      "index": 13,
+      "key": "AiNewLaBi",
+      "name": "💓蜡笔┃4K💓",
+      "api": "csp_AiNewLaBiGuard",
+      "ext": null,
+      "file": "sources/13-蜡笔-4K.js",
+      "implementation": "影视/网盘/蜡笔.js"
+    },
+    {
+      "index": 14,
+      "key": "AiNewShanDian",
+      "name": "💓闪电┃4K💓",
+      "api": "csp_AiNewShanDianGuard",
+      "ext": null,
+      "file": "sources/14-闪电-4K.js",
+      "implementation": "影视/网盘/闪电.js"
+    },
+    {
+      "index": 15,
+      "key": "AiNewJuTou",
+      "name": "💓剧透┃4K💓",
+      "api": "csp_AiNewJuTouGuard",
+      "ext": null,
+      "file": "sources/15-剧透-4K.js",
+      "implementation": "影视/网盘/聚盘搜索.js"
+    },
+    {
+      "index": 16,
+      "key": "AiNewLibvio",
+      "name": "💓立播┃4K💓",
+      "api": "csp_AiNewLibvioGuard",
+      "ext": null,
+      "file": "sources/16-立播-4K.js",
+      "implementation": "影视/采集/LIBVIO.js"
+    },
+    {
+      "index": 17,
+      "key": "原盘",
+      "name": "💓‍原盘┃4K💓‍",
+      "api": "csp_AiNewZhiNan4KGuard",
+      "ext": null,
+      "file": "sources/17-原盘-4K.js",
+      "implementation": "影视/网盘/4K指南.js"
+    },
+    {
+      "index": 18,
+      "key": "蜗牛",
+      "name": "💓‍蜗牛┃4K💓‍",
+      "api": "csp_AiNewWoNiu4KGuard",
+      "ext": null,
+      "file": "sources/18-蜗牛-4K.js",
+      "implementation": "影视/网盘/蜗牛4K.js"
+    },
+    {
+      "index": 19,
+      "key": "AiPan1Me",
+      "name": "💓盘迷┃4K💓",
+      "api": "csp_AiPan1MeGuard",
+      "ext": null,
+      "file": "sources/19-盘迷-4K.js",
+      "implementation": "影视/网盘/盘搜分组.js"
+    },
+    {
+      "index": 20,
+      "key": "AiNewYiDong4K",
+      "name": "💓逸动┃4K💓",
+      "api": "csp_AiNewYiDong4KGuard",
+      "ext": null,
+      "file": "sources/20-逸动-4K.js",
+      "implementation": "影视/网盘/Echo4K.js"
+    },
+    {
+      "index": 21,
+      "key": "WexHanXiaoQuan",
+      "name": "💥韩剧┃秒播💥",
+      "api": "csp_WexAiHanXiaoQuanGuard",
+      "ext": null,
+      "file": "sources/21-韩剧-秒播.js",
+      "implementation": "影视/采集/韩小圈.js"
+    },
+    {
+      "index": 22,
+      "key": "WexAiGuaZi",
+      "name": "💥瓜子┃秒播💥",
+      "api": "csp_WexAiGuaZiGuard",
+      "ext": null,
+      "file": "sources/22-瓜子-秒播.js",
+      "implementation": "影视/采集/瓜子.js"
+    },
+    {
+      "index": 23,
+      "key": "WexAiDuBoKu",
+      "name": "💥独播┃秒播💥",
+      "api": "csp_WexAiDuBoKuGuard",
+      "ext": null,
+      "file": "sources/23-独播-秒播.js",
+      "implementation": "影视/采集/独播库.js"
+    },
+    {
+      "index": 24,
+      "key": "WexAiYueYue",
+      "name": "💥闪电┃秒播💥",
+      "api": "csp_WexAiYueYueGuard",
+      "ext": null,
+      "file": "sources/24-闪电-秒播.js",
+      "implementation": "影视/采集/枝枝影视.js"
+    },
+    {
+      "index": 25,
+      "key": "WexAiWenCai",
+      "name": "💥文才┃秒播💥",
+      "api": "csp_WexAiWenCaiGuard",
+      "ext": null,
+      "file": "sources/25-文才-秒播.js",
+      "implementation": "影视/采集/电影天堂.js"
+    },
+    {
+      "index": 26,
+      "key": "WexFengYe4K",
+      "name": "💥小枫┃秒播💥",
+      "api": "csp_WexFengYe4KGuard",
+      "ext": null,
+      "file": "sources/26-小枫-秒播.js",
+      "implementation": "影视/采集/枫叶4K.js"
+    },
+    {
+      "index": 27,
+      "key": "賤賤",
+      "name": "💥贱片┃秒播💥",
+      "api": "csp_WexAiJianPianGuard",
+      "ext": null,
+      "file": "sources/27-贱片-秒播.js",
+      "implementation": "影视/采集/荐片.js"
+    },
+    {
+      "index": 28,
+      "key": "AppV7 | 大师兄",
+      "name": "💥师兄┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Dsx",
+        "proxyImg": false
+      },
+      "file": "sources/28-师兄-秒播.js",
+      "implementation": "影视/采集/Auete影视.js"
+    },
+    {
+      "index": 29,
+      "key": "AppV7 | 粉猪追剧",
+      "name": "💥粉猪┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Fz",
+        "proxyImg": false
+      },
+      "file": "sources/29-粉猪-秒播.js",
+      "implementation": "影视/采集/剧圈圈.js"
+    },
+    {
+      "index": 30,
+      "key": "AppV7 | 咸鱼",
+      "name": "💥咸鱼┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Xy",
+        "proxyImg": false
+      },
+      "file": "sources/30-咸鱼-秒播.js",
+      "implementation": "影视/采集/乌云影视.js"
+    },
+    {
+      "index": 31,
+      "key": "AppV7 | 追剧达人",
+      "name": "💥追剧┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Zjdr",
+        "proxyImg": false
+      },
+      "file": "sources/31-追剧-秒播.js",
+      "implementation": "影视/采集/热播.js"
+    },
+    {
+      "index": 32,
+      "key": "AppV7 | 小柚子",
+      "name": "💥柚子┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Xyz",
+        "proxyImg": false
+      },
+      "file": "sources/32-柚子-秒播.js",
+      "implementation": "影视/采集/小黑米.js"
+    },
+    {
+      "index": 33,
+      "key": "AppV7 | 小柠檬",
+      "name": "💥柠檬┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Xnm",
+        "proxyImg": false
+      },
+      "file": "sources/33-柠檬-秒播.js",
+      "implementation": "影视/采集/乐兔.js"
+    },
+    {
+      "index": 34,
+      "key": "AppV7 | 蒙太奇",
+      "name": "💥太奇┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Mtq",
+        "proxyImg": false
+      },
+      "file": "sources/34-太奇-秒播.js",
+      "implementation": "影视/采集/HDmoli.js"
+    },
+    {
+      "index": 35,
+      "key": "AppV7 | 零零七影视",
+      "name": "💥零七┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Llq",
+        "proxyImg": false
+      },
+      "file": "sources/35-零七-秒播.js",
+      "implementation": "影视/采集/3Q影视.js"
+    },
+    {
+      "index": 36,
+      "key": "AppV7 | 小柿子",
+      "name": "💥柿子┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Xsz",
+        "proxyImg": false
+      },
+      "file": "sources/36-柿子-秒播.js",
+      "implementation": "影视/采集/PPnix.js"
+    },
+    {
+      "index": 37,
+      "key": "AppV7 | 小黄人",
+      "name": "💥黄人┃秒播💥",
+      "api": "csp_WexAppV7Guard",
+      "ext": {
+        "config": "AppV7Xhr",
+        "proxyImg": false
+      },
+      "file": "sources/37-黄人-秒播.js",
+      "implementation": "影视/采集/NO视频.js"
+    },
+    {
+      "index": 38,
+      "key": "WexAiYiYs",
+      "name": "💥伊影┃秒播💥",
+      "api": "csp_WexAiYiYsGuard",
+      "ext": null,
+      "file": "sources/38-伊影-秒播.js",
+      "implementation": "影视/采集/电影人生.js"
+    },
+    {
+      "index": 39,
+      "key": "WexAiReBo",
+      "name": "💥热播┃秒播💥",
+      "api": "csp_WexAiReBoGuard",
+      "ext": null,
+      "file": "sources/39-热播-秒播.js",
+      "implementation": "影视/采集/热播.js"
+    },
+    {
+      "index": 40,
+      "key": "WexAiBoBo",
+      "name": "🎇伯伯┃秒播🎇",
+      "api": "csp_WexAiBoBoGuard",
+      "ext": null,
+      "file": "sources/40-伯伯-秒播.js",
+      "implementation": "影视/采集/凡客TV.js"
+    },
+    {
+      "index": 41,
+      "key": "WexAiIkanBot",
+      "name": "🎇爱看┃采集🎇",
+      "api": "csp_WexAiIkanBotGuard",
+      "ext": null,
+      "file": "sources/41-爱看-采集.js",
+      "implementation": "影视/采集/iKanBot.js"
+    },
+    {
+      "index": 42,
+      "key": "LiveAiHuYa",
+      "name": "🐯‍虎牙┃直播🐯‍",
+      "api": "csp_LiveAiHuYaGuard",
+      "ext": null,
+      "file": "sources/42-虎牙-直播.js",
+      "implementation": "直播/虎牙直播.js"
+    },
+    {
+      "index": 43,
+      "key": "LiveAiDouYu",
+      "name": "🐳斗鱼┃直播🐳",
+      "api": "csp_LiveAiDouYuGuard",
+      "ext": null,
+      "file": "sources/43-斗鱼-直播.js",
+      "implementation": "直播/斗鱼直播.js"
+    },
+    {
+      "index": 44,
+      "key": "LiveAiBiLi",
+      "name": "🅱️哔哩┃直播🅱️",
+      "api": "csp_LiveAiBiLiGuard",
+      "ext": null,
+      "file": "sources/44-🅱哔哩-直播🅱.js",
+      "implementation": "综合/哔哩大全.js"
+    },
+    {
+      "index": 45,
+      "key": "ManJuAiHongGuo",
+      "name": "🍉漫短┃小红🍉",
+      "api": "csp_ManJuAiHongGuoGuard",
+      "ext": null,
+      "file": "sources/45-漫短-小红.js",
+      "implementation": "短剧/短剧粉.js"
+    },
+    {
+      "index": 46,
+      "key": "ManJuAiHuoLong",
+      "name": "🍉漫剧┃小龙🍉",
+      "api": "csp_ManJuAiHuoLongGuard",
+      "ext": null,
+      "file": "sources/46-漫剧-小龙.js",
+      "implementation": "短剧/嘟嘟短剧.js"
+    },
+    {
+      "index": 47,
+      "key": "ManJuAiQiMao",
+      "name": "🍉漫剧┃小猫🍉",
+      "api": "csp_ManJuAiQiMaoGuard",
+      "ext": null,
+      "file": "sources/47-漫剧-小猫.js",
+      "implementation": "短剧/短剧网.js"
+    },
+    {
+      "index": 48,
+      "key": "ManJuAiXiFan",
+      "name": "🍉漫短┃小喜🍉",
+      "api": "csp_ManJuAiXiFanGuard",
+      "ext": null,
+      "file": "sources/48-漫短-小喜.js",
+      "implementation": "短剧/短剧聚合.js"
+    },
+    {
+      "index": 49,
+      "key": "ManJuAiHeMa",
+      "name": "🍉漫短┃小马🍉",
+      "api": "csp_ManJuAiHeMaGuard",
+      "ext": null,
+      "file": "sources/49-漫短-小马.js",
+      "implementation": "短剧/河马短剧.js"
+    },
+    {
+      "index": 50,
+      "key": "DuanJuAiHaoKan",
+      "name": "🍉短剧┃好看🍉",
+      "api": "csp_DuanJuAiHaoKanGuard",
+      "ext": null,
+      "file": "sources/50-短剧-好看.js",
+      "implementation": "短剧/短剧聚合.js"
+    },
+    {
+      "index": 51,
+      "key": "DuanJuAiQiMiao",
+      "name": "🍉短剧┃小猫🍉",
+      "api": "csp_DuanJuAiQiMiaoGuard",
+      "ext": null,
+      "file": "sources/51-短剧-小猫.js",
+      "implementation": "短剧/短剧网.js"
+    },
+    {
+      "index": 52,
+      "key": "DuanJuAiXingYa",
+      "name": "🍉短剧┃星星🍉",
+      "api": "csp_DuanJuAiXingYaGuard",
+      "ext": null,
+      "file": "sources/52-短剧-星星.js",
+      "implementation": "短剧/星星短剧.js"
+    },
+    {
+      "index": 53,
+      "key": "DuanJuAiWeiGuan",
+      "name": "🍉短剧┃小薇🍉",
+      "api": "csp_DuanJuAiWeiGuanGuard",
+      "ext": null,
+      "file": "sources/53-短剧-小薇.js",
+      "implementation": "短剧/短剧粉.js"
+    },
+    {
+      "index": 54,
+      "key": "AnimeAiGongHeGuo",
+      "name": "🤡共和┃动漫🤡",
+      "api": "csp_AnimeAiGongHeGuoGuard",
+      "ext": null,
+      "file": "sources/54-共和-动漫.js",
+      "implementation": "动漫/girigiri爱动漫.js"
+    },
+    {
+      "index": 55,
+      "key": "AnimeXiFan",
+      "name": "🤡稀饭┃动漫🤡",
+      "api": "csp_AnimeXiFanGuard",
+      "ext": null,
+      "file": "sources/55-稀饭-动漫.js",
+      "implementation": "动漫/稀饭动漫.js"
+    },
+    {
+      "index": 56,
+      "key": "AnimeCiYuanCheng",
+      "name": "🤡次元┃动漫🤡",
+      "api": "csp_AnimeCiYuanChengGuard",
+      "ext": null,
+      "file": "sources/56-次元-动漫.js",
+      "implementation": "动漫/樱花动漫.js"
+    },
+    {
+      "index": 57,
+      "key": "AnimeAiMoDu",
+      "name": "🤡魔都┃动漫🤡",
+      "api": "csp_AnimeAiMoDuGuard",
+      "ext": null,
+      "file": "sources/57-魔都-动漫.js",
+      "implementation": "动漫/嗷呜动漫.js"
+    },
+    {
+      "index": 58,
+      "key": "BookHongGuo",
+      "name": "🎃‍小红┃听书🎃",
+      "api": "csp_BookHongGuoGuard",
+      "ext": null,
+      "file": "sources/58-小红-听书.js",
+      "implementation": "听书/番茄畅听.js"
+    },
+    {
+      "index": 59,
+      "key": "BookHeMa",
+      "name": "🎃‍小马┃听书🎃",
+      "api": "csp_BookHeMaGuard",
+      "ext": null,
+      "file": "sources/59-小马-听书.js",
+      "implementation": "听书/听友FM.js"
+    },
+    {
+      "index": 60,
+      "key": "BookAiShiJie",
+      "name": "🎃‍极品┃听书🎃",
+      "api": "csp_BookAiShiJieGuard",
+      "ext": null,
+      "file": "sources/60-极品-听书.js",
+      "implementation": "听书/275听书.js"
+    },
+    {
+      "index": 61,
+      "key": "BookAiYueTing",
+      "name": "🎃‍悦庭┃听书🎃",
+      "api": "csp_BookAiYueTingGuard",
+      "ext": null,
+      "file": "sources/61-悦庭-听书.js",
+      "implementation": "听书/博看听书.js"
+    },
+    {
+      "index": 62,
+      "key": "BookAi23TingShu",
+      "name": "🎃‍爱上┃听书🎃",
+      "api": "csp_BookAi23TingShuGuard",
+      "ext": null,
+      "file": "sources/62-爱上-听书.js",
+      "implementation": "听书/酷我听书.js"
+    },
+    {
+      "index": 63,
+      "key": "ChildrenAiBaoBao",
+      "name": "👼宝宝┃儿歌👼",
+      "api": "csp_ChildrenAiBaoBaoGuard",
+      "ext": null,
+      "file": "sources/63-宝宝-儿歌.js",
+      "implementation": "教育/贝乐虎.js"
+    },
+    {
+      "index": 64,
+      "key": "ChildrenAiBeiWa",
+      "name": "👼贝贝┃儿歌👼",
+      "api": "csp_ChildrenAiBeiWaGuard",
+      "ext": null,
+      "file": "sources/64-贝贝-儿歌.js",
+      "implementation": "教育/哔哩教育.js"
+    },
+    {
+      "index": 65,
+      "key": "ChildrenAiTuTu",
+      "name": "👼兔兔┃儿歌👼",
+      "api": "csp_ChildrenAiTuTuGuard",
+      "ext": null,
+      "file": "sources/65-兔兔-儿歌.js",
+      "implementation": "教育/贝乐虎.js"
+    },
+    {
+      "index": 66,
+      "key": "MusicAiTangDou",
+      "name": "💃跳舞┃教学💃",
+      "api": "csp_MusicAiTangDouGuard",
+      "ext": null,
+      "file": "sources/66-跳舞-教学.js",
+      "implementation": "音乐/DJ音乐.js"
+    },
+    {
+      "index": 67,
+      "key": "MusicAiLiYuan",
+      "name": "🎎戏曲┃秒播🎎",
+      "api": "csp_MusicAiLiYuanGuard",
+      "ext": null,
+      "file": "sources/67-戏曲-秒播.js",
+      "implementation": "音乐/世纪音乐.js"
+    },
+    {
+      "index": 68,
+      "key": "MusicAiQingTing",
+      "name": "🎼蜻蜓┃电台🎼",
+      "api": "csp_MusicAiQingTingGuard",
+      "ext": null,
+      "file": "sources/68-蜻蜓-电台.js",
+      "implementation": "音乐/芸芸音乐.js"
+    },
+    {
+      "index": 69,
+      "key": "MusicAiIKtv",
+      "name": "🎼KTV┃音乐🎼",
+      "api": "csp_MusicAiIKtvGuard",
+      "ext": null,
+      "file": "sources/69-KTV-音乐.js",
+      "implementation": "音乐/DJ音乐.js"
+    },
+    {
+      "index": 70,
+      "key": "MusicAiKuWoa",
+      "name": "🎼小酷┃音乐🎼",
+      "api": "csp_MusicAiKuWoaGuard",
+      "ext": null,
+      "file": "sources/70-小酷-音乐.js",
+      "implementation": "音乐/枫叶音乐.js"
+    },
+    {
+      "index": 71,
+      "key": "MusicAi163",
+      "name": "🎼易听┃音乐🎼",
+      "api": "csp_MusicAi163Guard",
+      "ext": null,
+      "file": "sources/71-易听-音乐.js",
+      "implementation": "音乐/芸芸音乐.js"
+    },
+    {
+      "index": 72,
+      "key": "MusicAiKuWo",
+      "name": "🎼酷听┃音乐🎼",
+      "api": "csp_MusicAiKuWoGuard",
+      "ext": null,
+      "file": "sources/72-酷听-音乐.js",
+      "implementation": "音乐/世纪音乐.js"
+    },
+    {
+      "index": 73,
+      "key": "MusicAiLunHui",
+      "name": "🎼轮回┃舞曲🎼",
+      "api": "csp_MusicAiLunHuiGuard",
+      "ext": null,
+      "file": "sources/73-轮回-舞曲.js",
+      "implementation": "音乐/DJ音乐.js"
+    },
+    {
+      "index": 74,
+      "key": "SportAiFeiQiu",
+      "name": "🌐飞球┃体育🌐",
+      "api": "csp_SportAiFeiQiuGuard",
+      "ext": null,
+      "file": "sources/74-飞球-体育.js",
+      "implementation": "影视/采集/88看球.js"
+    },
+    {
+      "index": 75,
+      "key": "SportAiGuaZi",
+      "name": "🌐瓜子┃体育🌐",
+      "api": "csp_SportAiGuaZiGuard",
+      "ext": null,
+      "file": "sources/75-瓜子-体育.js",
+      "implementation": "影视/采集/88看球.js"
+    },
+    {
+      "index": 76,
+      "key": "SportAiKanQiuTong",
+      "name": "🌐球通┃体育🌐",
+      "api": "csp_SportAiKanQiuTongGuard",
+      "ext": null,
+      "file": "sources/76-球通-体育.js",
+      "implementation": "影视/采集/88看球.js"
+    },
+    {
+      "index": 77,
+      "key": "SportAiKanqiu",
+      "name": "🌐八八┃体育🌐",
+      "api": "csp_SportAiKanqiuGuard",
+      "ext": null,
+      "file": "sources/77-八八-体育.js",
+      "implementation": "影视/采集/88看球.js"
+    },
+    {
+      "index": 78,
+      "key": "SportAiKaFei",
+      "name": "🌐咖啡┃体育🌐",
+      "api": "csp_SportAiKaFeiGuard",
+      "ext": null,
+      "file": "sources/78-咖啡-体育.js",
+      "implementation": "影视/采集/88看球.js"
+    },
+    {
+      "index": 79,
+      "key": "SportAiWwe",
+      "name": "🌐WWE┃体育🌐",
+      "api": "csp_SportAiWweGuard",
+      "ext": null,
+      "file": "sources/79-WWE-体育.js",
+      "implementation": "影视/采集/88看球.js"
+    },
+    {
+      "index": 80,
+      "key": "FakeAi115Share",
+      "name": "💓115┃分享💓‍",
+      "api": "csp_FakeAi115ShareGuard",
+      "ext": null,
+      "file": "sources/80-115-分享.js",
+      "implementation": "影视/网盘/剧迷115.js"
+    },
+    {
+      "index": 81,
+      "key": "Emby",
+      "name": "💓Emby┃4K💓",
+      "api": "csp_EmbyGuard",
+      "ext": null,
+      "file": "sources/81-Emby-4K.js",
+      "implementation": "Emby/模板二.js"
+    },
+    {
+      "index": 82,
+      "key": "Emby001",
+      "name": "💓Emby001┃4K💓",
+      "api": "csp_EmbyDiyGuard",
+      "ext": {
+        "embynumber": 0
+      },
+      "file": "sources/82-Emby001-4K.js",
+      "implementation": "Emby/模板二.js"
+    },
+    {
+      "index": 83,
+      "key": "AList",
+      "name": "👁️Alist┃DIY👁️",
+      "api": "csp_AListGuard",
+      "ext": null,
+      "file": "sources/83-Alist-DIY.js",
+      "implementation": "影视/网盘/AListTvbox.js"
+    },
+    {
+      "index": 84,
+      "key": "webdav",
+      "name": "👁️WebDav┃DIY👁️",
+      "api": "csp_WebDAVGuard",
+      "ext": null,
+      "file": "sources/84-WebDav-DIY.js",
+      "implementation": "定时任务/WebDAV.js"
+    },
+    {
+      "index": 85,
+      "key": "DiyVod",
+      "name": "👁Vod┃DIY👁️",
+      "api": "csp_DiyVodGuard",
+      "ext": null,
+      "file": "sources/85-Vod-DIY.js",
+      "implementation": "影视/影视库/影视库.js"
+    },
+    {
+      "index": 86,
+      "key": "biliys",
+      "name": "🅱哔哩┃影视🅱",
+      "api": "csp_BiliYsGuard",
+      "ext": null,
+      "file": "sources/86-🅱哔哩-影视🅱.js",
+      "implementation": "综合/哔哩大全.js"
+    },
+    {
+      "index": 87,
+      "key": "bilibili",
+      "name": " 🅱‍哔哩┃合集🅱‍",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
+      },
+      "file": "sources/87-🅱哔哩-合集🅱.js",
+      "implementation": "综合/哔哩大全.js"
+    },
+    {
+      "index": 88,
+      "key": "bilixiqu",
+      "name": " 🅱‍哔哩┃戏曲🅱‍",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/183E562_773_xiqu_20251130182006749newMediaImage.txt"
+      },
+      "file": "sources/88-🅱哔哩-戏曲🅱.js",
+      "implementation": "综合/哔哩大全.js"
+    },
+    {
+      "index": 89,
+      "key": "biliych",
+      "name": " 🅱‍哔哩┃歌曲🅱‍",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+      },
+      "file": "sources/89-🅱哔哩-歌曲🅱.js",
+      "implementation": "综合/哔哩大全.js"
+    },
+    {
+      "index": 90,
+      "key": "少儿教育",
+      "name": "📚少儿┃教育📚",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+      },
+      "file": "sources/90-少儿-教育.js",
+      "implementation": "教育/哔哩教育.js"
+    },
+    {
+      "index": 91,
+      "key": "小学课堂",
+      "name": "📚小学┃课堂📚",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
+      },
+      "file": "sources/91-小学-课堂.js",
+      "implementation": "教育/哔哩教育.js"
+    },
+    {
+      "index": 92,
+      "key": "初中课堂",
+      "name": "📚初中┃课堂📚",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
+      },
+      "file": "sources/92-初中-课堂.js",
+      "implementation": "教育/哔哩教育.js"
+    },
+    {
+      "index": 93,
+      "key": "高中教育",
+      "name": "📚高中┃课堂📚",
+      "api": "csp_BiliGuard",
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
+      },
+      "file": "sources/93-高中-课堂.js",
+      "implementation": "教育/哔哩教育.js"
+    },
+    {
+      "index": 94,
+      "key": "SoAiHaiYin",
+      "name": "🎠盘搜┃综合🎠",
+      "api": "csp_SoAiHaiYinGuard",
+      "ext": null,
+      "file": "sources/94-盘搜-综合.js",
+      "implementation": "影视/网盘/盘搜.js"
+    },
+    {
+      "index": 95,
+      "key": "SoAiPanSoo",
+      "name": "🎠九七┃综合🎠",
+      "api": "csp_SoAiPanSooGuard",
+      "ext": null,
+      "file": "sources/95-九七-综合.js",
+      "implementation": "影视/网盘/盘搜分组.js"
+    },
+    {
+      "index": 96,
+      "key": "SoAiAiPanSo",
+      "name": "🎠爱盘┃综合🎠",
+      "api": "csp_SoAiAiPanSoGuard",
+      "ext": null,
+      "file": "sources/96-爱盘-综合.js",
+      "implementation": "影视/网盘/聚盘搜索.js"
+    },
+    {
+      "index": 97,
+      "key": "SoKaKa",
+      "name": "🎠卡卡┃综合🎠",
+      "api": "csp_SoKaKaGuard",
+      "ext": null,
+      "file": "sources/97-卡卡-综合.js",
+      "implementation": "影视/网盘/聚盘搜索分组.js"
+    },
+    {
+      "index": 98,
+      "key": "push_agent",
+      "name": "推送",
+      "api": "csp_PushGuard",
+      "ext": null,
+      "file": "sources/98-推送.js",
+      "implementation": "模板/JavaScript/推送脚本.js"
+    }
+  ]
+}
